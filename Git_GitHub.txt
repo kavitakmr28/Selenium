@@ -1,0 +1,63 @@
+Git Bash:
+
+ls - To check files and directories.
+pwd- Current working directory
+cd - Change directory
+cat filename- Check yje content of the file.
+vim filename - You can go to editor mode to edit the file.Press "insert" to start he editing And press "esc" to come out from the editor mode.
+
+GIT- Local repository
+----------------------------------------------------------------
+git --version - To check the currect version of the git.
+
+
+$git init- it will create or initalise a new git reposatory in the current working directory and it will be a hidden file and can't be visible.
+
+$git status- it will show all the flies which are present in workspace but not added in new created repository.
+
+$git add file name, second filename
+OR-
+$git add .* - To add all the file.
+- To send a file to staging or index area.
+
+
+Need to do onle once and before the commit command:
+
+$git config -- global user.email "kavitakmr29@gmail.com"
+
+$git config --global user.name "Kavita"
+
+
+$git commit -m "This is my firstcommit" - Need to commit or save the chages.
+
+$git log- It will show how many commit has been done earlier.
+
+Modify:
+
+
+$git commit -a -m "It will add all the files in staging area and commit it to local repository"
+
+---------------------------------------------
+6- Read&Write dir
+4- Read 
+2-Write
+1- Execute
+
+--------------------------------------
+Git Hub- Remote Repository
+-------------------------------------
+$git remote add origin https://github.com/kavitakmr28/Python.git
+$ git push origin master(branch name)--> Push the code to the remote repository.
+
+Username-
+Password
+
+$ git pull origin master(branch name)--> Pull the code to the remote repository.
+$git clone 'github remote repository url'
+
+
+
+
+
+
+

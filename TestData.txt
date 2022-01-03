@@ -1,0 +1,93 @@
+URL: https://admin-demo.nopcommerce.com
+Credential- 
+Admin email: admin@yourstore.com
+Admin password: admin
+
+Go to Customer.
+Expand Customer.
+Click on "Add New" button.
+
+Provide Data on all the fields-
+
+Email- It should be unique.
+
+Click on "Save" button.
+
+Sept@123kavita123
+
+
+Locators URL :
+Selenium Locators - Part 1 |XPath Locator | XPath Functions & Operator
+
+C:\Users\kavita.f.kumari\eclipse-workspace
+
+
+On branch master
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../.metadata/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+WPT
+LoadRunner
+BDD
+Cucumber
+Node.js
+QA
+UNIX shell scrpting
+Pyhton
+Docker
+JMeter
+Postman
+
+
+
+Continuous Integration with Maven, Jenkins,Git & GitHub part-1
+
+Part1-SDET Essentials | Jenkins Build & Delivery Pipeline | CI & CD | How to create Jenkins Pipeline
+
+
+Dependencies:
+
+cucumber-core
+cucumber-html
+cobertura
+cucumber-java
+cucumber-junit
+cucumber-jvm-deps
+cucumber-reporting
+hamcrest-core
+gherkin
+selenium-java
+junit
+
+
+Github
+kavitakmr28
+
+
+
+
+
+<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.5.0</version>
+    <scope>system</scope>
+    <systemPath>C:\\Program Files\\Java\\jdk1.8.0_311\\lib\tools.jar</systemPath>
+</dependency>
+
+
+
+<dependency>
+    <groupId>com.sun</groupId>
+    <artifactId>tools</artifactId>
+    <version>1.5.0</version>
+    <scope>system</scope>
+</dependency>
+
+
+
+C:\Program Files\Java\jdk1.8.0_311
