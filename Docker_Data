@@ -21,9 +21,16 @@ docker --help
 docker login
 
 Images
-docker images- to check all the images in the repository
-docker pull- To pull the image from the docker hub.- https://hub.docker.com/
+1.docker images- to check all the images in the repository
+2.docker pull- To pull the image from the docker hub.- https://hub.docker.com/
 First go to Gihhub-Click on Explore- Sreach by name for which you want to pull the image.
 eg- docker pull ubuntu
+3. docker rmi imageId - To remove the docker images
 
+Container
+1. docker ps- List of container avaiable in system
+2. docker run imagenamefromdockerhub - It willtake the images from Dockerhub and run if its not available in loacl system.
+    ex- docker run ubuntu
+3. After getting an image, we need to create a Container for that image
+   docker run -it ubuntu- This command will create a Container for Ubuntu Image.
 
