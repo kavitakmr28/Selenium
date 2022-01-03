@@ -9,3 +9,21 @@ And we can achive the conceot of container by using "Docker".
 4. Tag - Version of image.
 5. Container- Its have all the apps and its configuration.and its created by using images.
 6. DockerHub- Image Repository
+
+
+
+Docker commands:
+Basic:
+docker version
+dokcer -v or docker --v
+docker info- To check the images.
+docker --help
+docker login
+
+Images
+docker images- to check all the images in the repository
+docker pull- To pull the image from the docker hub.- https://hub.docker.com/
+First go to Gihhub-Click on Explore- Sreach by name for which you want to pull the image.
+eg- docker pull ubuntu
+
+
