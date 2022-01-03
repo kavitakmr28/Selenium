@@ -1,2 +1,3 @@
 URL- Part-1| SDET Essentials|Docker Introduction|What is Docker,Docker Container,Docker Image& Docker Hub
-Containerization- Its like a VM without the OS. it will share the kernel of host OS or share the host operating system
+Containerization- Its like a VM without the OS. it will share the kernel of host OS or share the host operating system.
+Container contain only application and and all the depedency which require application to run.So it is light weighted and contain less memory.
