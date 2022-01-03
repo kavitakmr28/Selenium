@@ -36,3 +36,10 @@ Container
 
 4. docker start containetID - To start the docker container
 5. docker stop containerID - To stop the docker container
+
+
+System
+1. docker stats
+2. docker system df
+3. docker system
+4. prune
