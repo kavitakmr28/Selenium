@@ -34,3 +34,5 @@ Container
 3. After getting an image, we need to create a Container for that image
    docker run -it ubuntu- This command will create a Container for Ubuntu Image.
 
+4. docker start - To start the docker container
+5. docker stop- To stop the docker container
