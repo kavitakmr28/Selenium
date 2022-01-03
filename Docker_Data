@@ -2,3 +2,10 @@ URL- Part-1| SDET Essentials|Docker Introduction|What is Docker,Docker Container
 Containerization- Its like a VM without the OS. it will share the kernel of host OS or share the host operating system.
 Container contain only application and and all the depedency which require application to run.So it is light weighted and contain less memory.
 And we can achive the conceot of container by using "Docker".
+
+1. Dockerfile(no extension)- It contain instraction and according to instraction, it will create images.
+2. Build- It will help to Dockerfile to convert to image.
+3. Image- Its a snapshhot which help to craete a container.
+4. Tag - Version of image.
+5. Container- Its have all the apps and its configuration.and its created by using images.
+6. DockerHub- Image Repository
