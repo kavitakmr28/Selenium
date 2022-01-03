@@ -41,5 +41,8 @@ Container
 System
 1. docker stats
 2. docker system df
-3. docker system
-4. prune
+3. docker system prune -f ---This command  will remove all the stopped container
+
+For practice:
+Part-5 |SDET Essentials | Docker with Chrome & Firefox Images for Selenium Tests
+
