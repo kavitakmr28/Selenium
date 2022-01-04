@@ -46,3 +46,4 @@ System
 For practice:
 Part-5 |SDET Essentials | Docker with Chrome & Firefox Images for Selenium Tests
 
+Scenario1 : How to invoke Selenium Grid server in Docker Env using windows Batch file. And how to run the Batch files using Java Code.
