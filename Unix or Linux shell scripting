@@ -73,9 +73,7 @@ q --> To go to the command promt.'
 more and less command differen--> more command (We can't go to previous page but for less command we can navigate to both the direction),
 less --> Press upper arrow key to go to the previous key and Spacebar to go to next page.
 
-
-
-
-
+ls -l | more--> Display all the files pagewise.It can only go to next pages.
+ls -l | less --> Display all the files pagewise and can go previous as well.
 
 
