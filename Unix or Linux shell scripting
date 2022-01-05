@@ -1,3 +1,5 @@
+Part 2 - Unix/Linux for Testers | Directory Commands
+
 cat command:
 
 cat > filename.txt--> Creating a new file.
@@ -18,6 +20,59 @@ cat RenameDirName/filename.txt--> to check the content of the page under diretor
 
 rm --(to remove the directory)
 rm -r RenameDirName  --->Remove diretory with name RenameDirName
+
+
+touch command--> touch command is used to create a empty file.
+touch myfile.doc
+touch .myhoddenfile.txt--> it will create a hidden file and starts with .(dot)
+
+To check the hidden file we can use the below command:
+ls -a  --> It will display all the files with hidden files.
+ls -l --> All the informanation about all the file.
+ls -l -a --> Details of all the files along with the hidden files.
+ls -F --> It will add  /(hyphen) in front of all the directory
+ls -R --> Display directory with the sub directory.
+ls -lS--> It will display size of all the files and bigger files get displayed first.
+
+Wild card charater:
+? --> Represent the single character.
+* -->  Multiple charater.
+[] --->  Range of the character.
+
+
+ls ?.* --> It will display the file name with the single character and extension can be anything.
+ls ?.doc  --> It will display file name with single character and extension should be doc only.
+ls a*.doc --> Filename should start with a and extension will be doc.
+ls *.txt --> Dispaly all the files with txt extensions.
+ls [a-z]*.*---> Display filename that starts with any character and extension should be anything.
+
+
+head command
+It will use to displaythe specific number of lines from the files from the begining.
+head filename.txt---> It will display first 10 lines of the data from the file by default.
+head -n 5 filename.txt   OR head -5 filename.txt ---> It will display first 5 lines of the data from the file.
+head -n 20 filename.txt OR head -20 filename.txt  ----> It will display first 20 lines of data from the file.
+
+tail command
+It will use to displaythe specific number of lines from the files from the last.
+tail filename.txt---> It will display last 10 lines of the data from the file by default.
+tail -n 20 filename.txt OR tail -20 filename.txt ---->  It will display last 20 lines of the data from the file.
+
+Pipeline(|)--> Output of one file will be input for another.
+If want to capture the data between 10 - 15 from the file:
+
+head -15 filename.txt | tail -6  ---->  It will display the data from 10 to 15. By using Pipeline-(Output of the head will be the input for tail).
+ls -l | head--> It will display top 10 file.
+
+more command (Display the content of the file pagewise or page by page)
+more filename.txt  --> it will display few data from the file and we need to press space from keyboard to check another data from next page.
+Space bar key--> To check the data pagewise.
+Enter key--> To check the data line by line.
+q --> To go to the command promt.'
+
+more and less command differen--> more command (We can't go to previous page but for less command we can navigate to both the direction),
+less --> Press upper arrow key to go to the previous key and Spacebar to go to next page.
+
 
 
 
