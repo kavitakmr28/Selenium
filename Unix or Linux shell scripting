@@ -76,3 +76,5 @@ less --> Press upper arrow key to go to the previous key and Spacebar to go to n
 ls -l | more--> Display all the files pagewise.It can only go to next pages.
 ls -l | less --> Display all the files pagewise and can go previous as well.
 
+wc (Command) --> To count the numbers of words in a file.
+wc filename
