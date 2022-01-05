@@ -1,1 +1,13 @@
+cat command:
+
+cat > filename.txt--> Creating a new file.
+cat filename.txt---> Displaying the content of the two file.
+cat filename1.txt filename2.txt----> Concating the data of two files.
+cat >> filename.txt---> Appending the data to the existing file.
+
+cp (Copy) command:
+cp oldfile.txt newfile.txt
+
+
+
 
