@@ -8,6 +8,19 @@ cat >> filename.txt---> Appending the data to the existing file.
 cp (Copy) command:
 cp oldfile.txt newfile.txt
 
+mv (1.rename file OR 2.directory Or 3,.move file from one directory to another directory) command
+mv oldfile.txt renamefile.txt
+
+mkdir NewDirName--> Created a new directory with name "NewDirName"
+mv NewDirName RenameDirName---> Rename the directory.
+
+cat RenameDirName/filename.txt--> to check the content of the page under diretory.
+
+rm --(to remove the directory)
+rm -r RenameDirName  --->Remove diretory with name RenameDirName
+
+
+
 
 
 
