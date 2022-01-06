@@ -76,5 +76,50 @@ less --> Press upper arrow key to go to the previous key and Spacebar to go to n
 ls -l | more--> Display all the files pagewise.It can only go to next pages.
 ls -l | less --> Display all the files pagewise and can go previous as well.
 
-wc (Command) --> To count the numbers of words in a file.
+wc (Command) --> To count the numbers of lines,number of words , number of character in a file respectivily.
 wc filename
+eg: output- 5 10 64 file.
+          numbers of lines,number of words , number of character in a file respectivily.
+wc filename1 filename2
+wc -l filename--> Only display the number of lines.
+wc -w filename --> Only display number of words in the files.
+wc -c filename --> Only display the number of character in the files.
+wc -lw filename--> Display only number of lines and words of a file.
+
+sort command --> Used to sort the data in file. 
+sort filenae.txt> number_sorted.txt---> Move the sorted data to the new file.
+
+Input , OutPut, Error redirection:  T
+Input Redirection---> Instead of typing or taking the data or input from commond line, we are taking the input from the file,
+Output Redirection---> Instead of displaying a data or output on the consol or terminal, it will get saved or write in file.
+Error Redirection--> Instead of displaying the error on the consol or terminal, it will get saved or writre in file.
+
+Symbol for all the Redirection:
+Output Redirection  : >  >>    1
+Error Redirection   : > >>     2
+Input Redirection   : <        0
+
+Example for output Redirection:
+cat 1>output.txt---> It will take the input from the keyboard and write the output in file.
+cat 1>>output.txt- It will also write the respone in the file but it not not remove the old data and append the new data in it.
+ls -l >> output.txt--> It will write all the file and directories in the output file.
+
+Example for Error Redirection:
+cal 15 2021 2>> error.txt  --> It will write the error in the error.txt fie.
+
+ex-
+command 1> output.txt 2>error.txt--> If we are getting a correct output, data will save in output file else for error it will save in error.txt.
+
+Example for Inout Redirection:
+cat 0<input.txt 1>output.txt  --> Read the data from the input file and write in output file.
+
+tty --> this command will give the file name of the terminal.
+
+
+
+
+Part 8 - Unix/Linux for Testers | Input, Output & Error Re-Direction
+
+
+
+
