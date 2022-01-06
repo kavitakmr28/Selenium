@@ -114,12 +114,53 @@ Example for Inout Redirection:
 cat 0<input.txt 1>output.txt  --> Read the data from the input file and write in output file.
 
 tty --> this command will give the file name of the terminal.
-
-
-
-
 Part 8 - Unix/Linux for Testers | Input, Output & Error Re-Direction
 
 
+Part 10 - Unix/Linux for Testers | Regular Expressions:
+* ---> Represent all the character.
+? --> Represt only single character
+ eg-> List out all the files where file name starts with 's' or 't'or 'r'
+      syntax-> ls [str]*
+ eg: List out all the files where file name should not starts  with 's' or 't'or 'r'    
+     syntax-> ls [!str]*
+     
+Lower case:
+ls [a-z]*
+OR
+ls[[:lower:]]*
+
+Upper case:
+ls [A-Z]*
+OR
+ls[[:upper:]]*
+
+Didgit
+ls [0-9]*
+OR
+ls [[:digit:]]*
+
+Scenario:
+First letter should be upper case letter
+Second letter should be digit
+Third letter should be lower case letter
+Syntax:  ls [A-Z][0-9][a-z]*
+
+Scenario: List out all the files which starts with special character
+Syntax:
+ls [![:alnum:]]*
+
+Grep command: This is used to searching a required pattern in a file.
+Ex-
+grep "textneedtoserach" filename
+output: "textneedtoserach"
+
+grep command options:
+-i  --> Ignore the case sensitiviness. ex- grep -i "DEHLI" filename
+-n --> It will displayed the searched data alonged with the line number. ex-> grep -n "Delhi" filename - Output : 2: Delhi
+                                                                                                                  7: Delhi
+-c  --> It will displayed the count that  how many times that search data displyed. ex-> grep -c "Delhi" filename - Output : 3
+-l--> It will dispalyed the all flies name which is having the data which has been searched.
+-v --> It will dispalyed all the data with is not matching with the search data.
 
 
